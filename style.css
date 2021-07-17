@@ -1,0 +1,42 @@
+body {
+    position: relative;
+    min-width: 375px;
+    min-height: 812px;
+    font-family: Helvetica, serif;
+    background: #44D7B6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#Placeholder-Bot-1 {
+
+    width: 257px;
+    height: 257px;
+    left: 59px;
+    top: 40px;
+
+    background: url(images/Placeholder-Bot.png);
+}
+
+#Placeholder-You-1 {
+    position: absolute;
+    width: 257px;
+    height: 257px;
+    left: 59px;
+    top: 347px;
+    object-fit: contain;
+    background: url(images/Placeholder-You.png);
+}
+
+#placeholder {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+
